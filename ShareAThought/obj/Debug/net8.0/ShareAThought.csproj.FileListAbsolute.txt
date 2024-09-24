@@ -251,3 +251,4 @@ C:\Users\anzpa\Documents\UIUC\dyslexico\starter\ShareAThought\ShareAThought\bin\
 C:\Users\anzpa\Documents\UIUC\dyslexico\starter\ShareAThought\ShareAThought\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\anzpa\Documents\UIUC\dyslexico\starter\ShareAThought\ShareAThought\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\anzpa\Documents\UIUC\dyslexico\starter\ShareAThought\ShareAThought\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+c:\Users\anzpa\Documents\UIUC\dyslexico\starter\ShareAThought\ShareAThought\obj\Debug\net8.0\ShareAThought.sourcelink.json

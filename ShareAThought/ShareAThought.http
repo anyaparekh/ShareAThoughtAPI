@@ -1,0 +1,6 @@
+@ShareAThought_HostAddress = http://localhost:5172
+
+GET {{ShareAThought_HostAddress}}/api/
+Accept: application/json
+
+###

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareAThought", "ShareAThought\ShareAThought.csproj", "{6C5E8946-91D1-4CC9-8394-C23E0D84544A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C5E8946-91D1-4CC9-8394-C23E0D84544A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5E8946-91D1-4CC9-8394-C23E0D84544A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5E8946-91D1-4CC9-8394-C23E0D84544A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5E8946-91D1-4CC9-8394-C23E0D84544A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE565E80-42EE-4D51-87DF-D10280FF1A3E}
+	EndGlobalSection
+EndGlobal

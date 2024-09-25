@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anzpa\\Documents\\UIUC\\dyslexico\\starter\\ShareAThought\\ShareAThought\\ShareAThought.csproj": {}
+    "/Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/ShareAThought.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anzpa\\Documents\\UIUC\\dyslexico\\starter\\ShareAThought\\ShareAThought\\ShareAThought.csproj": {
+    "/Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/ShareAThought.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anzpa\\Documents\\UIUC\\dyslexico\\starter\\ShareAThought\\ShareAThought\\ShareAThought.csproj",
+        "projectUniqueName": "/Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/ShareAThought.csproj",
         "projectName": "ShareAThought",
-        "projectPath": "C:\\Users\\anzpa\\Documents\\UIUC\\dyslexico\\starter\\ShareAThought\\ShareAThought\\ShareAThought.csproj",
-        "packagesPath": "C:\\Users\\anzpa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anzpa\\Documents\\UIUC\\dyslexico\\starter\\ShareAThought\\ShareAThought\\obj\\",
+        "projectPath": "/Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/ShareAThought.csproj",
+        "packagesPath": "/Users/ajz/.nuget/packages/",
+        "outputPath": "/Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\anzpa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ajz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -94,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

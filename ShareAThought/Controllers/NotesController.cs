@@ -19,7 +19,7 @@ namespace ShareAThought.Controllers
         // get list of notes
         // GET: api/Notes
         [HttpGet]
-        public async Task<ActionResult<List<Note>>> getNotes() {
+        public async Task<ActionResult<List<Note>>> GetNotes() {
             var notes = await _context.Notes.ToListAsync();
 
             return notes;
@@ -27,9 +27,10 @@ namespace ShareAThought.Controllers
         // get a note by id
         // GET: api/Notes/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Note>> getNote(int id) 
+        public async Task<ActionResult<Note>> GetNote(int id) 
         {
-            var note = _context.Notes.FindAsync(id);
+            var note = await _context.Notes.FindAsync(id);
+
             if (note == null)
             {
                 return NotFound();
@@ -42,12 +43,12 @@ namespace ShareAThought.Controllers
         // create new note
         // POST: api/Notes
         [HttpPost]
-        public async Task<ActionResult<Note>> createNote(Note note) 
+        public async Task<ActionResult<Note>> CreateNote(Note note) 
         {
             _context.Notes.Add(note);
-            await _context.Notes.SaveChangesAsync();
+            await _context.SaveChangesAsync();
 
-            return CreatedAtAction("getNote", new {id = note.id}, note);
+            return CreatedAtAction("getNote", new {id = note.AuthorId}, note);
         }
 
         // delete note

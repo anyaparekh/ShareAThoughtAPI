@@ -25,50 +25,19 @@ public partial class DyslexicoContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Author>(entity =>
-        {
-            entity.HasKey(e => e.AuthorId).HasName("PK__Author__86516BCF1ABD1089");
+        modelBuilder.Entity<Author>()
+            .HasKey(a => a.AuthorId);
 
-            entity.ToTable("Author");
+        modelBuilder.Entity<Author>()
+            .HasIndex(a => a.Username)
+            .IsUnique();
 
-            entity.HasIndex(e => e.Username, "UQ__Author__F3DBC5728DD23159").IsUnique();
+        modelBuilder.Entity<Note>()
+            .HasKey(n => n.NoteId);
 
-            entity.Property(e => e.AuthorId).HasColumnName("author_id");
-            entity.Property(e => e.Password)
-                .HasMaxLength(255)
-                .IsUnicode(false)
-                .HasColumnName("password");
-            entity.Property(e => e.Username)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("username");
-        });
-
-        modelBuilder.Entity<Note>(entity =>
-        {
-            entity.HasKey(e => e.NoteId).HasName("PK__Note__CEDD0FA451344420");
-
-            entity.ToTable("Note");
-
-            entity.HasIndex(e => new { e.AuthorId, e.Title }, "UQ__Note__B803CA75EAF14B25").IsUnique();
-
-            entity.Property(e => e.NoteId).HasColumnName("note_id");
-            entity.Property(e => e.AuthorId).HasColumnName("author_id");
-            entity.Property(e => e.Body)
-                .HasColumnType("text")
-                .HasColumnName("body");
-            entity.Property(e => e.Title)
-                .HasMaxLength(255)
-                .IsUnicode(false)
-                .HasColumnName("title");
-
-            entity.HasOne(d => d.Author).WithMany(p => p.Notes)
-                .HasForeignKey(d => d.AuthorId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Note__author_id__6C190EBB");
-        });
-
-        OnModelCreatingPartial(modelBuilder);
+        modelBuilder.Entity<Note>()
+            .HasIndex(a => a.Title)
+            .IsUnique();
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

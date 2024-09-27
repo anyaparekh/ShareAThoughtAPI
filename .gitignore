@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/ShareAThought
+/ShareAThought/bin/Debug/net8.0
+/ShareAThought/obj

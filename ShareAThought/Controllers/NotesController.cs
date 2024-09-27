@@ -29,6 +29,18 @@ namespace ShareAThought.Controllers
 
         // get a note by id
         // GET: api/Notes/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Note>> GetNote(int id)
+        {
+            var note = await _context.Notes.FindAsync(id);
+
+            if (note == null)
+            {
+                return NotFound();
+            }
+
+            return note;
+        }
 
         // create new note
         // POST: api/Notes

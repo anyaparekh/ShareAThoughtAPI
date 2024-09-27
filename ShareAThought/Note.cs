@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace ShareAThought;
 
 public partial class Note
 {
     public int NoteId { get; set; }
-
-    public int AuthorId { get; set; }
-
-    public string Title { get; set; } = null!;
-
-    public string Body { get; set; } = null!;
-
-    public virtual Author Author { get; set; } = null!;
+    [MaxLength(255)]
+    public string? Title { get; set; }
+    [MaxLength(255)]
+    public string? Body { get; set; }
 }

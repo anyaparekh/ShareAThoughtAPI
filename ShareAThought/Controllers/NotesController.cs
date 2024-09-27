@@ -53,6 +53,15 @@ namespace ShareAThought.Controllers
 
         // delete note
         // DELETE: api/Authors/5
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteNote(int id)
+        {
+            Note note = new Note() {NoteId = id};
+            _context.Remove(note);
+            await _context.SaveChangesAsync();
+            
+            return NoContent();
+        }
 
         // update note
         // POST: api/Notes/5

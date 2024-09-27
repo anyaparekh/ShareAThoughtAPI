@@ -333,7 +333,6 @@ c:/Users/anzpa/Documents/UIUC/dyslexico/starter/ShareAThought/ShareAThought/obj/
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/bin/Debug/net8.0/System.Runtime.Caching.dll
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/bin/Debug/net8.0/System.Security.Permissions.dll
-/Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/bin/Debug/net8.0/System.Text.Json.dll
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/bin/Debug/net8.0/System.Windows.Extensions.dll
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/bin/Debug/net8.0/af/Humanizer.resources.dll
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/bin/Debug/net8.0/ar/Humanizer.resources.dll
@@ -501,9 +500,9 @@ c:/Users/anzpa/Documents/UIUC/dyslexico/starter/ShareAThought/ShareAThought/obj/
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ShareAThought.props
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/staticwebassets.pack.json
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/scopedcss/bundle/ShareAThought.styles.css
-/Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/ShareAThought.csproj.CopyComplete
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/ShareAThought.dll
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/refint/ShareAThought.dll
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/ShareAThought.pdb
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/ShareAThought.genruntimeconfig.cache
 /Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/ref/ShareAThought.dll
+/Users/ajz/Documents/Code/hack/ShareAThoughtAPI/ShareAThought/obj/Debug/net8.0/ShareATh.86B3DDEF.Up2Date

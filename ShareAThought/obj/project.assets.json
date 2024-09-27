@@ -8189,19 +8189,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chatt\\.nuget\\packages\\": {}
+    "/Users/evanjordan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\chatt\\OneDrive\\Documents\\GitHub\\ShareAThoughtAPI\\ShareAThought\\ShareAThought.csproj",
+      "projectUniqueName": "/Users/evanjordan/Desktop/Hack4Impact/ShareAThoughtAPI/ShareAThought/ShareAThought.csproj",
       "projectName": "ShareAThought",
-      "projectPath": "c:\\Users\\chatt\\OneDrive\\Documents\\GitHub\\ShareAThoughtAPI\\ShareAThought\\ShareAThought.csproj",
-      "packagesPath": "C:\\Users\\chatt\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\chatt\\OneDrive\\Documents\\GitHub\\ShareAThoughtAPI\\ShareAThought\\obj\\",
+      "projectPath": "/Users/evanjordan/Desktop/Hack4Impact/ShareAThoughtAPI/ShareAThought/ShareAThought.csproj",
+      "packagesPath": "/Users/evanjordan/.nuget/packages/",
+      "outputPath": "/Users/evanjordan/Desktop/Hack4Impact/ShareAThoughtAPI/ShareAThought/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\chatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/evanjordan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -8219,11 +8219,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8278,7 +8273,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ShareAThought.Controllers
 {
@@ -15,9 +16,31 @@ namespace ShareAThought.Controllers
 
         // get list of notes
         // GET: api/Notes
+        public async Task<ActionResult<IEnumerable<Note>>> GetNotes()
+        {
+            var notes = await _context.Notes.ToListAsync();
+
+            if (notes == null) {
+                return NotFound();
+            }
+
+            return notes;
+        }
 
         // get a note by id
         // GET: api/Notes/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Note>> GetNote(int id)
+        {
+            var note = await _context.Notes.FindAsync(id);
+
+            if (note == null)
+            {
+                return NotFound();
+            }
+
+            return note;
+        }
 
         // create new note
         // POST: api/Notes
